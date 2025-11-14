@@ -197,3 +197,23 @@ img {
         font-size: 20px;
     }
 }
+
+@media(max-width:660px) {
+    ul li {
+        display: block;
+    }
+
+    .main {
+        width: 100%;
+        padding: 20px 30px;
+        box-sizing: border-box;
+        float: none;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 20px 30px;
+        box-sizing: border-box;
+        float: none;
+    }
+}
