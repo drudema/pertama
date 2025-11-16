@@ -8,6 +8,8 @@ body {
     background-image: url("../img/bg.png");
 }
 
+/* ===================Text Berjalan====================== */
+
 .top-bar {
     position: fixed;
     top: 0px;
@@ -26,12 +28,16 @@ marquee {
     margin-top: 2px;
 }
 
+/* =====================Strutuk Utama==================  */
+
 .container {
     width: 75%;
     margin: 80px auto;
     background-color: azure;
     position: relative;
 }
+
+/*================Pita Pojok========================  */
 
 .twiter {
     width: 200px;
