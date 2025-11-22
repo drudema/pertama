@@ -1,225 +1,239 @@
 /* ==============Start style========================== */
 
 body {
-    font-size: 16px;
-    line-height: 28px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(170, 236, 238, 0.7);
-    background-image: url("../img/bg.png");
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(170, 236, 238, 0.7);
+  background-image: url("../img/bg.png");
 }
 
 /* ===================Text Berjalan====================== */
 
 .top-bar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 40px;
-    z-index: 1;
-    background-color: azure;
-    border-bottom: solid 3px rgba(22, 123, 206, 0.9);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 40px;
+  z-index: 1;
+  background-color: azure;
+  border-bottom: solid 3px rgba(22, 123, 206, 0.9);
 }
 
 marquee {
-    font-size: 16px;
-    font-weight: bold;
-    color: #191970;
-    margin-top: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #191970;
+  margin-top: 2px;
 }
 
 /* =====================Strutuk Utama==================  */
 
 .container {
-    width: 75%;
-    margin: 80px auto;
-    background-color: azure;
-    position: relative;
+  width: 75%;
+  margin: 80px auto;
+  background-color: azure;
+  position: relative;
 }
 
 /*================Pita Pojok========================  */
 
 .twiter {
-    width: 200px;
-    height: 200px;
-    background-image: url("../img/pita.png");
-    background-repeat: no-repeat;
-    text-indent: -99999px;
-    display: inline-block;
-    position: absolute;
-    top: -20px;
-    right: -25px;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/pita.png");
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  right: -25px;
 }
 
 /* =================Header============================ */
 .header {
-    padding: 20px 30px 5px;
+  padding: 20px 30px 5px;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: bold;
-    color: #191970;
+  font-size: 40px;
+  font-weight: bold;
+  color: #191970;
 }
 
 ul li {
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 15px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 15px;
 }
 
 ul li a {
-    text-decoration: none;
-    color: rgba(22, 123, 206, 0.9);
-    padding: 3px;
-    transition: 1.5s;
+  text-decoration: none;
+  color: rgba(22, 123, 206, 0.9);
+  padding: 3px;
+  transition: 1.5s;
 }
 
 ul li a:hover {
-    background-color: #191970;
-    color: azure;
+  background-color: #191970;
+  color: azure;
 }
 
 /* ===================Hero=========================== */
 .hero {
-    height: 340px;
-    background-image: url("../img/anim.png");
-    background-size: cover;
-    background-position: center;
-    background-position: 50% 78%;
-    border-top: solid 5px rgba(22, 123, 206, 0.9);
-    border-bottom: solid 5px #191970;
+  height: 340px;
+  background-image: url("../img/anim.png");
+  background-size: cover;
+  background-position: center;
+  background-position: 50% 78%;
+  border-top: solid 5px rgba(22, 123, 206, 0.9);
+  border-bottom: solid 5px #191970;
 }
 
 /* ======================Content Main=================== */
 
 .main {
-    width: 65%;
-    padding: 20px 30px;
-    box-sizing: border-box;
-    float: left
+  width: 65%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  float: left;
 }
 
 h2 {
-    font-size: 28px;
-    font-weight: bold;
-    color: #191970;
+  font-size: 28px;
+  font-weight: bold;
+  color: #191970;
 }
 
 .penulis {
-    font-size: 11px;
-    margin-top: -5px;
+  font-size: 11px;
+  margin-top: -5px;
 }
 
 .penulis a {
-    text-decoration: none;
-    color: rgba(22, 123, 206, 0.9);
-    transition: 1.5s;
+  text-decoration: none;
+  color: rgba(22, 123, 206, 0.9);
+  transition: 1.5s;
 }
 
 .penulis a:hover {
-    text-decoration: underline;
-    color: #191970;
+  text-decoration: underline;
+  color: #191970;
 }
 
 .main p {
-    margin-bottom: 10px;
-    font-size: 13px;
-    text-align: justify;
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-align: justify;
 }
 
 /* ===================Content Sidebar=================== */
 
 .sidebar {
-    width: 35%;
-    padding: 20px 30px;
-    box-sizing: border-box;
-    float: right;
+  width: 35%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  float: right;
 }
 
 h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #191970;
-    margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #191970;
+  margin-bottom: 10px;
 }
 
 img {
-    width: 70px;
-    height: 100px;
-    border-radius: 5px;
-    float: left;
-    margin-right: 10px;
+  width: 70px;
+  height: 100px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
 }
 
 .sponsor {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .logo {
-    margin-top: -20px;
-    float: left;
+  margin-top: -20px;
+  float: left;
 }
 
 .sidebar p {
-    font: 12px/20px Arial, Helvetica, sans-serif;
-    text-align: justify;
+  font: 12px/20px Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 
 /* =====================Footer========================= */
 
 .footer p {
-    background-color: #191970;
-    color: azure;
-    text-align: center;
-    padding: 10px;
-    font-size: 12px;
-    border-top: solid 3px rgba(22, 123, 206, 0.9);
+  background-color: #191970;
+  color: azure;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  border-top: solid 3px rgba(22, 123, 206, 0.9);
 }
 
 /* ================Clear Float======================= */
 
 .cf::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* ================Media Query======================= */
 
 /* Tampilan 750 kebawah */
 
-@media(max-width:750px) {
-    .container .twiter {
-        display: none;
-    }
+@media (max-width: 750px) {
+  .container .twiter {
+    display: none;
+  }
 
-    h1,
-    ul {
-        text-align: center;
-    }
+  h1,
+  ul {
+    text-align: center;
+  }
 
-    ul li a {
-        font-size: 20px;
-    }
+  ul li a {
+    font-size: 20px;
+  }
 }
 
-@media(max-width:660px) {
-    ul li {
-        display: block;
-    }
+@media (max-width: 660px) {
+  ul li {
+    display: none;
+  }
 
-    .main {
-        width: 100%;
-        padding: 20px 30px;
-        box-sizing: border-box;
-        float: none;
-    }
+  h1 {
+    margin-bottom: 20px;
+  }
 
-    .sidebar {
-        width: 100%;
-        padding: 20px 30px;
-        box-sizing: border-box;
-        float: none;
-    }
+  .main {
+    width: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    float: none;
+  }
+
+  .main p,
+  .sidebar p {
+    font-size: 23px;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    float: none;
+  }
 }
